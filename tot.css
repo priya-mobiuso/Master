@@ -1,0 +1,200 @@
+form{
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   z-index: -1;
+   background-image: url("p41.jpg");
+ //  background-image: url("p29.jpg");
+ 
+  background-repeat: no-repeat;
+   
+   
+   height: 470px;
+   width: 500px;
+   border: 1px solid white;
+   
+   margin: 2px;
+   //height: auto;
+  // width: auto;
+  // color: grey;
+   
+  
+}
+   
+   
+   body {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Comic Sans MS', Helvetica, sans-serif;
+  background-image: url("p36.jpg");
+  background-repeat: no-repeat;
+ 
+}
+
+td{
+      width: 40px;
+      height: 40px;
+      text-align: center; 
+	
+}
+
+.button{   width: 100px;
+   height: 100px;
+   margin: 2px;
+   margin-toptop: 10px;
+   
+  background-image: url("p16.jpg");
+  background-repeat: no-repeat;
+   
+   font-size: 60px;
+   
+   font-family: times new roman;
+   border: 3px  ;
+  border-radius: 10px;
+  
+	border-spacing: 300pxs;
+  -webkit-appearance: none;
+  
+  //border-spacing: 5pt;
+ //background-color : #99C;
+ // color : grey;
+  color: red;
+ 
+  transition: all 0.3s ease 0s;
+  
+   
+   }
+   
+ #button1{
+    float: left;
+    width: 120px;
+	height: 50px;
+	font-size: 20px;
+	//background-color: #C8C8C8;
+	color: yellow;
+	border: 1px solid black;
+	border-radius: 7px;
+	background-image: url("b5.jpg");
+  background-repeat: no-repeat;
+	text-align: center;
+	}  
+	
+	.Exit{
+	float: right;
+	 width: 120px;
+	height: 50px;
+	font-size: 20px;
+	//background-color: #C8C8C8;
+	color: yellow;
+	border: 1px solid black;
+	border-radius: 7px;
+	background-image: url("b5.jpg");
+  background-repeat: no-repeat;
+	text-align: center;
+	}
+
+ h3{
+  color: #9900CC;
+  font-family: times new roman;
+  float: left;
+  text-decoration: underline;
+  font-size: 20px;
+  }
+  
+  h1{
+   color: #F0C;
+   font-size: 40px;
+   font-family: times new roman;
+   margin-right: 10%;
+    animation-duration: 3s;
+  animation-name: slidein;
+//  animation-iteration-count: infinite;
+   animation-iteration-count: 1s;
+}
+   
+ 
+   
+  
+  li{
+    
+	text-align: left;
+	font-size: 24px;
+	font-family: Times new romon;
+	color: #202020;
+	//color: white;
+	border: 1px solid black;
+    background-color: white;
+	  
+	}
+	
+	.buttonR{
+   width: 150px;
+   height: 50px;
+   border: 1px solid black;
+   border-radius: 10px;
+   
+   font-size: 30px;
+   color: yellow;
+   font-family: times new roman;
+  //background-color: #CCF;
+  background-image: url("b3.jpg");
+  background-repeat: no-repeat;
+  
+   }
+   
+   
+   
+  div img{
+     float: left;
+	 color: #FFE5B4;
+	 
+	}
+	
+	/*input[type=button]  {
+  border: 1px  ;
+  border-radius: 8px;
+	border-spacing: 300pxs;
+  -webkit-appearance: none;
+  
+  //border-spacing: 5pt;
+  background-color : #9966CC;
+  color : #000;*/
+  
+  #image{
+   float:right;
+  }
+
+
+#msg{
+  //display: none;
+ font-size: 26px;
+ font-family: Times new roman;
+  color: #C0F;
+ 
+ // position: fixed;
+ // margin-top: 30vh;
+ // margin-left: 40% ;
+ // z-index: 5;
+ 
+   animation-duration: 3s;
+  animation-name: slidein;
+//  animation-iteration-count: infinite;
+   animation-iteration-count: 1s;
+  
+  }
+  
+  @keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+  }
+h2{
+  font-family: Times new roman;
+  color:red;
+  font-size: 30px;}
